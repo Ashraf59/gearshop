@@ -16,6 +16,8 @@ nav {
 }
 .logo span {
   color: #e02c6d;
+  font-size: 35px;
+  font-weight: 700;
 }
 .menu ul {
   display: flex;
@@ -25,9 +27,14 @@ nav {
   list-style: none;
   margin-right: 20px;
 }
+.menu ul li:hover a {
+  color: #e02c6d;
+  font-weight: bold;
+}
 .menu ul li a {
   text-decoration: none;
   font-size: 20px;
+  transition: all 0.5s ease-in-out;
 }
 .fa-solid {
   margin-right: 20px;
@@ -72,6 +79,10 @@ nav {
   padding: 15px 30px;
   color: white;
 }
+.fa-arrow-right {
+  margin-left: 20px;
+}
+
 .brand-icon {
   display: flex;
   justify-content: space-evenly;
@@ -135,4 +146,49 @@ span {
 .img-size {
   width: 300px;
   height: 300px;
+}
+.feature-container {
+  margin: 100px 0;
+}
+
+.feature {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.feature-img {
+  width: 400px;
+  margin-right: 100px;
+}
+.feature-title {
+  width: 600px;
+}
+.feature-title h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.feature-title p {
+  width: 450px;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.join-btn {
+  background: #e02c6d;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: white;
+}
+.footer-container {
+  background-color: black;
+  width: 100%;
+  padding: 50px;
+}
+.footer-container h3 {
+  color: white;
+}
+.footer-container p {
+  color: rgb(200, 192, 192);
+  font-size: 16px;
+  text-align: center;
 }
